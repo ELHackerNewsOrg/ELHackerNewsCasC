@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: default.jamieMichael
+flagType: boolean
+description: jamie
+labels:
+  -  Michael
+
+availableValues:
+  - false
+  - true
+
+isPermanent: false
