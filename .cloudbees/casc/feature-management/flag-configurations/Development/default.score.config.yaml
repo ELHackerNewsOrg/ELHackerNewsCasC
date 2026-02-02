@@ -8,7 +8,11 @@ enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  valueWrittenInCode: true
+defaultValue: false
 
-conditions: []
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: BetaUsers
+    flagValue: true
