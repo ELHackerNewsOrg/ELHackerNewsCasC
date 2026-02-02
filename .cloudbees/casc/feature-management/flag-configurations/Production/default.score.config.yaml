@@ -6,7 +6,7 @@ flag: default.score
 
 enabled: true
 
-stickinessProperty: ""
+stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
